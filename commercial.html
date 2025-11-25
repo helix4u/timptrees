@@ -9,11 +9,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="favicon-180x180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png">
+  <meta property="og:image" content="assets/timp-trees-logo.png">
 </head>
 <body class="page">
   <header class="topbar">
     <div class="container nav">
-      <div class="logo">Timp Trees</div>
+      <a href="index.html" class="logo">
+        <img src="assets/timp-trees-logo.png" alt="Timp Trees Logo" class="logo-img" />
+        <span class="logo-text">Timp Trees</span>
+      </a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a class="active" href="commercial.html">Business & Commercial</a>
@@ -36,11 +44,10 @@
         <div>
           <div class="eyebrow">Business & Commercial Tree Services</div>
           <h1>Tree care for businesses, HOAs, and property managers</h1>
-          <p class="tagline">We're expanding our business and commercial services. Seeking larger accounts. Flexible scheduling, insured crews, and maintenance contracts that keep your properties safe, attractive, and compliant.</p>
+          <p class="tagline">We're expanding our business and commercial services. Seeking larger accounts. Flexible scheduling, professional service, and maintenance contracts that keep your properties safe, attractive, and compliant.</p>
           <div class="pill-row">
             <span class="pill">Maintenance contracts</span>
             <span class="pill">Off-hours scheduling</span>
-            <span class="pill">Proof of insurance on file</span>
             <span class="pill">Multi-property coordination</span>
           </div>
           <div class="btn-row">
@@ -112,7 +119,7 @@
           </div>
           <div class="card">
             <h3>Compliance ready</h3>
-            <p>Licensed, insured, and comfortable with HOA and property management requirements.</p>
+            <p>Professional service and comfortable with HOA and property management requirements.</p>
           </div>
           <div class="card">
             <h3>Predictable costs</h3>
@@ -183,7 +190,7 @@
             <label for="contactMethod">Preferred contact</label>
             <input id="contactMethod" type="text" placeholder="Phone 801.901.0331 or email">
             <label for="notes">Notes</label>
-            <textarea id="notes" placeholder="Access details, gate codes, required insurance documents, etc."></textarea>
+            <textarea id="notes" placeholder="Access details, gate codes, special requirements, etc."></textarea>
             <button class="btn btn-primary" type="submit">Request estimate</button>
           </form>
           <div style="margin-top:1.5rem; padding-top:1.5rem; border-top:2px solid var(--border);">
@@ -201,8 +208,10 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <h3 style="color:#f8fbf7;">Timp Trees</h3>
-        <p>Residential tree care specialists. Business and commercial services available for Utah and Salt Lake Counties.</p>
+        <a href="index.html" class="footer-logo">
+          <img src="assets/timp-trees-logo.png" alt="Timp Trees" />
+        </a>
+        <p style="margin-top:0.75rem;">Residential tree care specialists. Business and commercial services available for Utah and Salt Lake Counties.</p>
       </div>
       <div>
         <h4 style="color:#f8fbf7;">Contact</h4>
@@ -212,8 +221,10 @@
         </p>
       </div>
       <div>
-        <h4 style="color:#f8fbf7;">More</h4>
-        <p><a href="index.html">Homepage</a><br><a href="testimonials.html">Testimonials</a></p>
+        <a href="index.html" class="footer-logo">
+          <img src="assets/timp-trees-logo.png" alt="Timp Trees" />
+        </a>
+        <p style="margin-top:0.75rem;"><a href="index.html">Homepage</a><br><a href="testimonials.html">Testimonials</a></p>
       </div>
       <div>
         <h4 style="color:#f8fbf7;">Coverage</h4>

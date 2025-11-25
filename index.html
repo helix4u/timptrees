@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timp Trees | Residential & Business Tree Services</title>
+  <meta name="description" content="Professional tree care for homes and businesses. Business and commercial tree services, removal, trimming, pruning, emergency response. Serving Utah & Salt Lake Counties.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="page">
+  <header class="topbar">
+    <div class="container nav">
+      <div class="logo">Timp Trees</div>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="commercial.html">Business & Commercial</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="#bid">Bid Request</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="sun">☀️</span><span class="moon">🌙</span>
+      </button>
+      <a class="cta-phone" href="tel:8019010331">
+        <span>801.901.0331</span>
+        <small>Call now</small>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Utah County & Salt Lake County</div>
+          <h1>Professional Tree Care for Your Home & Property</h1>
+          <p class="tagline">
+            Certified arborists specializing in residential tree care, with services for businesses and commercial properties. 24/7 emergency response, competitive pricing, and zero-fuss scheduling.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Residential tree care</span>
+            <span class="pill">Tree removal & pruning</span>
+            <span class="pill">Storm & emergency service</span>
+            <span class="pill">Licensed & insured</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#bid">Get a Free Estimate</a>
+            <a class="btn btn-secondary" href="tel:8019010331">Call 801.901.0331</a>
+          </div>
+          <p style="margin-top:0.75rem; font-size:0.9rem; color:var(--text-secondary);">
+            <a href="commercial.html" style="color:var(--accent);">Business & commercial services available</a> • Seeking larger accounts
+          </p>
+          <div class="stat-grid">
+            <div class="stat"><strong id="google-rating">5.0★</strong><small id="google-review-count">Avg. Google rating (16 reviews)</small></div>
+            <div class="stat"><strong>24/7</strong><small>Emergency response</small></div>
+            <div class="stat"><strong>2 Counties</strong><small>Utah & Salt Lake</small></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="badge">Fast Bid Form</div>
+          <p><strong>Tell us about your property</strong></p>
+          <form id="quickBidForm">
+            <label for="propertyType">Property type</label>
+            <select id="propertyType" name="propertyType">
+              <option>Residential</option>
+              <option>Business / Commercial</option>
+              <option>HOA / Property Management</option>
+            </select>
+            <label for="serviceType">Service needed</label>
+            <select id="serviceType" name="serviceType">
+              <option>Tree trimming / pruning</option>
+              <option>Tree removal</option>
+              <option>Stump grinding</option>
+              <option>Lot clearing</option>
+              <option>Emergency storm response</option>
+            </select>
+            <label for="projectDetails">Project details</label>
+            <textarea id="projectDetails" name="projectDetails" placeholder="Example: Remove two elms near parking lot; schedule before 8 AM."></textarea>
+            <label for="contact">Phone or email</label>
+            <input id="contact" name="contact" type="text" placeholder="801.901.0331 or you@example.com">
+            <button class="btn btn-primary" type="submit">Get my bid</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Services</div>
+          <h2>Comprehensive Tree Care for Your Home</h2>
+          <p>Expert residential tree services with business and commercial options available. One team for everything from proactive pruning to emergency removals.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Residential Tree Care</h3>
+            <ul class="list">
+              <li><span class="dot"></span><span>Tree trimming, pruning, and health checks for shade and safety.</span></li>
+              <li><span class="dot"></span><span>Stump grinding and hedge maintenance.</span></li>
+              <li><span class="dot"></span><span>Storm cleanup with same-day response.</span></li>
+              <li><span class="dot"></span><span>Emergency tree removal for your home.</span></li>
+            </ul>
+            <a class="btn btn-primary" href="#bid" style="margin-top:1rem; display:inline-block;">Get a quote</a>
+          </div>
+          <div class="card">
+            <h3>Business & Commercial Services</h3>
+            <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:0.75rem;">We're expanding our business and commercial services. Seeking larger accounts.</p>
+            <ul class="list">
+              <li><span class="dot"></span><span>Scheduled pruning and canopy clearance for storefronts, campuses, and industrial sites.</span></li>
+              <li><span class="dot"></span><span>Lot clearing and safe removals for developments.</span></li>
+              <li><span class="dot"></span><span>Maintenance contracts with predictable pricing and off-hours scheduling.</span></li>
+            </ul>
+            <a class="btn btn-secondary" href="commercial.html" style="margin-top:1rem; display:inline-block;">Learn more</a>
+          </div>
+          <div class="card">
+            <h3>Emergency & Risk Mitigation</h3>
+            <ul class="list">
+              <li><span class="dot"></span><span>24/7 emergency tree removal for storm or structure risk.</span></li>
+              <li><span class="dot"></span><span>Crane-assisted removals and traffic-safe work zones.</span></li>
+              <li><span class="dot"></span><span>ISA-certified crews, fully licensed and insured.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="card reviews">
+          <div class="badge">Social Proof</div>
+          <h2>Trusted by homeowners across Utah</h2>
+          <div class="review-item">
+            <div class="stars" data-review-stars>★★★★★</div>
+            <p data-review-text>Loading reviews...</p>
+            <div class="reviewer" data-review-name></div>
+          </div>
+          <div class="slider-dots" data-slider-dots></div>
+          <div class="btn-row" style="margin-top:0.75rem;">
+            <a class="btn btn-secondary" href="https://www.google.com/maps/place/Timp+Trees/@39.4739558,-114.1920433,966564m/data=!3m1!1e3!4m18!1m9!3m8!1s0x874d974917230a2d:0xae9e4f67a7eb5efd!2sTimp+Trees!8m2!3d39.4996794!4d-111.5472285!9m1!1b1!16s%2Fg%2F11c467thxg!3m7!1s0x874d974917230a2d:0xae9e4f67a7eb5efd!8m2!3d39.4996794!4d-111.5472285!9m1!1b1!16s%2Fg%2F11c467thxg?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Leave a Google review</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-areas">
+      <div class="container">
+        <div class="section-header">
+          <h2>Service Areas</h2>
+          <p>Residential tree care across Utah County and Salt Lake County. Business and commercial services available.</p>
+        </div>
+        <div class="two-col">
+          <div>
+            <h3>Utah County</h3>
+            <p>Provo, Orem, Pleasant Grove, American Fork, Lehi, Spanish Fork, and nearby cities.</p>
+          </div>
+          <div>
+            <h3>Salt Lake County</h3>
+            <p>Salt Lake City, West Valley City, Sandy, Murray, Draper, and surrounding areas.</p>
+          </div>
+        </div>
+        <div class="callout" style="margin-top:1rem;">
+          Need a city not listed? Call 801.901.0331 and we will confirm coverage.
+        </div>
+      </div>
+    </section>
+
+    <section id="bid">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">Ready to start?</div>
+          <h2>Request a Free Estimate</h2>
+          <p>Fast response, clear pricing, and scheduling built around your property. Residential is our specialty, and we welcome business and commercial inquiries.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Why choose Timp Trees</h3>
+            <ul class="list">
+              <li><span class="dot"></span><span>Licensed, insured, and safety-first crews.</span></li>
+              <li><span class="dot"></span><span>Specialized in residential tree care.</span></li>
+              <li><span class="dot"></span><span>Free estimates and transparent pricing.</span></li>
+              <li><span class="dot"></span><span>24/7 emergency response for your home.</span></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Contact us</h3>
+            <p>Get a free estimate for your residential tree care needs.</p>
+            <div class="btn-row" style="margin-top:1rem; flex-direction:column; gap:0.5rem;">
+              <a class="btn btn-primary" href="tel:8019010331">📞 Call 801.901.0331</a>
+              <a class="btn btn-secondary" href="mailto:services@timptrees.com">✉️ Email Us</a>
+            </div>
+            <p style="margin-top:1rem; font-size:0.85rem; color:var(--text-secondary);">
+              <a href="commercial.html" style="color:var(--accent);">Business & commercial inquiries welcome</a>
+            </p>
+          </div>
+          <div class="card">
+            <h3>Business & Commercial</h3>
+            <p>We're actively seeking larger business and commercial accounts. Property managers, HOAs, campuses, and businesses get dedicated scheduling, bundled services, and proof of insurance on file.</p>
+            <a class="btn btn-primary" href="commercial.html" style="margin-top:1rem; display:inline-block;">See business services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 style="color:#f8fbf7;">Timp Trees</h3>
+        <p>Residential tree care specialists serving Utah County and Salt Lake County. Business and commercial services available.</p>
+      </div>
+      <div>
+        <h4 style="color:#f8fbf7;">Contact</h4>
+        <p>
+          <a class="btn btn-primary" href="tel:8019010331" style="display:inline-block; margin-bottom:0.5rem; padding:0.5rem 1rem; font-size:0.9rem;">📞 Call 801.901.0331</a><br>
+          <a class="btn btn-secondary" href="mailto:services@timptrees.com" style="display:inline-block; padding:0.5rem 1rem; font-size:0.9rem;">✉️ Email Us</a>
+        </p>
+      </div>
+      <div>
+        <h4 style="color:#f8fbf7;">Navigate</h4>
+        <p><a href="commercial.html">Business & Commercial</a><br><a href="testimonials.html">Testimonials</a><br><a href="#bid">Bid request</a></p>
+      </div>
+      <div>
+        <h4 style="color:#f8fbf7;">Coverage</h4>
+        <p style="color:#f0f8f0; font-weight:500;">Utah County | Salt Lake County<br>24/7 Emergency service available</p>
+      </div>
+      <div>
+        <h4 style="color:#f8fbf7;">Find Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/TimpTrees/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+            <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/timptrees" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.yelp.com/biz/timp-trees-provo" target="_blank" rel="noopener" class="social-link" aria-label="Yelp">
+            <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.36 5.518l-2.407 4.015c-.24.4-.888.63-1.367.5a.95.95 0 0 0-.113-.013l-.03-.004c-.3-.03-.6-.1-.89-.19a.15.15 0 0 0-.05-.01c-.1-.03-.2-.07-.3-.1l-.01-.01c-.4-.15-.83-.24-1.28-.28h-.01c-.4-.03-.8 0-1.19.08l-.01.01c-.3.06-.6.15-.88.28l-.01.01c-.3.13-.58.3-.84.5l-.01.01c-.3.22-.56.48-.78.78l-.01.01c-.2.26-.37.54-.5.84l-.01.01c-.13.28-.22.58-.28.88l-.01.01c-.08.39-.11.79-.08 1.19v.01c.04.45.13.88.28 1.28l.01.01c.03.1.07.2.1.3l.01.01c.09.29.16.59.19.89l.01.03c.02.04.02.08.01.12.13.48-.1 1.13-.5 1.37l-4.015 2.407c-.4.24-1.05.01-1.28-.5L2.64 18.48c-.24-.4-.01-1.05.5-1.28l4.014-2.407c.4-.24.63-.89.5-1.37a.95.95 0 0 0-.013-.113l-.004-.03c-.03-.3-.1-.6-.19-.89a.15.15 0 0 0-.01-.05c-.03-.1-.07-.2-.1-.3l-.01-.01c-.15-.4-.24-.83-.28-1.28h-.01c-.03-.4 0-.8.08-1.19l.01-.01c.06-.3.15-.6.28-.88l.01-.01c.13-.3.3-.58.5-.84l.01-.01c.22-.3.48-.56.78-.78l.01-.01c.26-.2.54-.37.84-.5l.01-.01c.28-.13.58-.22.88-.28l.01-.01c.39-.08.79-.11 1.19-.08h.01c.45.04.88.13 1.28.28l.01.01c.1.03.2.07.3.1l.01.01c.29.09.59.16.89.19l.03.01c.04.01.08.01.12.01.48.13 1.13-.1 1.37-.5l2.407-4.015c.24-.4.01-1.05-.5-1.28l-4.014-2.407c-.4-.24-1.05-.01-1.28.5L5.64 5.52c-.24.4-.01 1.05.5 1.28l4.014 2.407c.4.24.89.13 1.37-.5a.95.95 0 0 0 .113-.013l.03-.004c.3-.03.6-.1.89-.19a.15.15 0 0 0 .05-.01c.1-.03.2-.07.3-.1l.01-.01c.4-.15.83-.24 1.28-.28h.01c.4-.03.8 0 1.19.08l.01.01c.3.06.6.15.88.28l.01.01c.3.13.58.3.84.5l.01.01c.3.22.56.48.78.78l.01.01c.2.26.37.54.5.84l.01.01c.13.28.22.58.28.88l.01.01c.08.39.11.79.08 1.19v.01c-.04.45-.13.88-.28 1.28l-.01.01c-.03.1-.07.2-.1.3l-.01.01c-.09.29-.16.59-.19.89l-.01.03c-.02.04-.02.08-.01.12-.13.48.1 1.13.5 1.37l4.015 2.407c.4.24 1.05.01 1.28-.5l2.407-4.015c.24-.4.01-1.05-.5-1.28z"/>
+            </svg>
+            <span>Yelp</span>
+          </a>
+          <a href="https://www.google.com/maps/place/Timp+Trees/@39.4739558,-114.1920433,966564m/data=!3m1!1e3!4m18!1m9!3m8!1s0x874d974917230a2d:0xae9e4f67a7eb5efd!2sTimp+Trees!8m2!3d39.4996794!4d-111.5472285!9m1!1b1!16s%2Fg%2F11c467thxg!3m7!1s0x874d974917230a2d:0xae9e4f67a7eb5efd!8m2!3d39.4996794!4d-111.5472285!9m1!1b1!16s%2Fg%2F11c467thxg?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="social-link" aria-label="Google Maps">
+            <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            <span>Google Maps</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

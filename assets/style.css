@@ -585,16 +585,28 @@ section {
   color: var(--text-muted) !important;
 }
 
+.list li > span:first-child {
+  flex-shrink: 0;
+}
+
 [data-theme="dark"] .list li {
   color: #c2d6c2 !important;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 10px !important;
+  height: 10px !important;
+  min-width: 10px !important;
+  min-height: 10px !important;
+  max-width: 10px !important;
+  max-height: 10px !important;
   background: var(--accent);
-  border-radius: 50%;
+  border-radius: 50% !important;
   margin-top: 0.35rem;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+  display: inline-block !important;
+  aspect-ratio: 1 / 1 !important;
 }
 
 .service-areas {

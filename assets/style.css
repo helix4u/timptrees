@@ -125,12 +125,11 @@ a:hover {
 }
 
 .logo-img {
-  height: 40px;
+  height: 65px;
   width: auto;
   object-fit: contain;
   display: block;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
-  transition: transform 0.2s ease;
   flex-shrink: 0;
 }
 
@@ -146,9 +145,6 @@ a:hover {
   display: block;
 }
 
-.logo:hover .logo-img {
-  transform: scale(1.02);
-}
 
 .logo-text {
   display: inline-block;
@@ -171,7 +167,7 @@ a:hover {
 }
 
 .footer-logo img {
-  height: 50px;
+  height: 65px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -586,7 +582,15 @@ section {
 }
 
 .list li > span:first-child {
-  flex-shrink: 0;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+  flex-basis: 10px !important;
+  width: 10px !important;
+  min-width: 10px !important;
+  max-width: 10px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
 }
 
 [data-theme="dark"] .list li {
@@ -605,8 +609,10 @@ section {
   margin-top: 0.35rem;
   flex-shrink: 0 !important;
   flex-grow: 0 !important;
-  display: inline-block !important;
+  flex-basis: 10px !important;
+  display: block !important;
   aspect-ratio: 1 / 1 !important;
+  box-sizing: border-box !important;
 }
 
 .service-areas {
